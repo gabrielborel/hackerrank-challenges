@@ -1,14 +1,12 @@
 package main
 
-import "fmt"
-
 // ! CHALLENGE URL: https://www.hackerrank.com/challenges/grading/problem
 
 func main() {
 	grades := []int32{4, 73, 67, 38, 33}
 	result := gradingStudents(grades)
 	for _, r := range result {
-		fmt.Printf("%d\n", r)
+		println(r)
 	}
 }
 
